@@ -1,4 +1,4 @@
-== README
+# README
 
 This website is an attempt to recreate a MIDI controller using the keyboard. Basically, an online launchpad, similar in function to that of Novation's Launchpad.
 
@@ -25,3 +25,8 @@ TODO:
 * Downloadable offline version, probably zipped JS, CSS, HTML, and audio files, will have to get rid of server calls
 
 * Finish editor tools and put recorded parts of songs on main page
+
+# DEPLOYMENT
+
+To use this launchpad you can run this docker container: `docker run --rm -d -p 3000:3000 fpekal/launchpad`.  
+And then connect to `http://localhost:3000`.
